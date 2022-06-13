@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import Loading from "../components/Loading";
 import UsersContainer from "../components/UsersContainer";
+import '../screen.css'
 
 const Users = () => {
   const [users, setUsers] = useState([]);
@@ -23,8 +24,8 @@ const Users = () => {
 
   return (
     <div>
-      <div className="flex justify-center my-6 text-4xl font-semibold ">
-        Let's Explore World of GitHub <span className=" text-sm ml-2 p-0 text-green-600 border-green-600 font-bold rounded-lg rounded-r-lg "> Active </span>
+      <div className="flex justify-center my-6 text-4xl font-semibold sc">
+        Let's Explore World of GitHub <span className=" text-sm ml-2 p-0 text-green-600 border-green-600 font-bold rounded-lg rounded-r-lg set"> Active </span>
       </div>
       <div className="flex justify-center h-11  mt-[200px] items-center">
         <input
