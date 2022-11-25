@@ -1,9 +1,9 @@
 @media screen and (max-width: 555px){
     .sc{
-        margin: 40px
+        font-size: 38px;
+        line-height: 1.2;
     }
     .set{
-        margin-top: 39px;
-        margin-right: 13px;
+        display: none;
     }
 }
