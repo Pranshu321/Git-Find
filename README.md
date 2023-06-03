@@ -73,9 +73,11 @@
 A project that uses the Github API to provide insights about a GitHub profile. With this project, you can see the date a user joined Github, events related to their account, who they follow, and information about their repositories.
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+* **_Repository Details:_** GitFind offers in-depth information about the repositories associated with a Github profile. Users can gain insights into the repository's details, including its name, description, and the prominent programming language used in each repository. This feature helps users understand the user's areas of expertise and the types of projects they are involved in, facilitating potential collaborations or identifying repositories of interest for further exploration.
+
+* **_Following Analysis:_** GitFind allows users to explore the users that a particular Github profile follows. This feature provides valuable information about the user's network and connections within the Github community. Users can discover influential developers, projects, or organizations that the profile owner finds interesting or relevant, fostering collaboration and knowledge-sharing opportunities.
+
+* **_Profile Insights:_** GitFind utilizes the Github API to provide valuable insights about a user's profile. It allows users to view the date a user joined Github, events related to their account, and information about their repositories. This feature enables users to gain a comprehensive understanding of a user's activity and history on the platform.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
