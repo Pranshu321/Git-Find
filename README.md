@@ -1,57 +1,194 @@
-# Github Insights **(Git Find)**
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
+
+
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://gitfind32.netlify.app/" target="blank">
+    <img src="https://github.com/Pranshu321/Git-Find/blob/master/src/assets/logo.png" alt="Logo" width="100" height="100" style="border-radius:50%;">
+  </a>
+
+  <h3 align="center">Git Find</h3>
+
+  <p align="center">
+    An awesome tool to explore the world of github!
+    <br />
+    <a href="https://gitfind32.netlify.app">View Demo</a>
+    ·
+    <a href="https://github.com/Pranshu321/Git-Find/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Pranshu321/Git-Find/issues">Request Feature</a>
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+![image](https://github.com/Pranshu321/Git-Find/assets/86917304/cd1421cb-fc75-486d-b7ff-a7bcc4f51907)
 
 A project that uses the Github API to provide insights about a GitHub profile. With this project, you can see the date a user joined Github, events related to their account, who they follow, and information about their repositories.
 
-- [Live Demo](https://gitfind32.netlify.app/)
+Here's why:
+* Your time should be focused on creating something amazing. A project that solves a problem and helps others
+* You shouldn't be doing the same tasks over and over like creating a README from scratch
+* You should implement DRY principles to the rest of your life :smile:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Features
---------
 
--   Date a user joined Github
--   User events
--   List of users followed by the user
--   Information about user's repositories
--   Prominent language used in each repository
 
-Technology Stack
-----------------
+### Built With
 
--   React
--   Tailwind
--   GitHub API
+This section should list any major frameworks/libraries used to bootstrap in project.
 
-Getting Started
----------------
+ ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+ ![Vue](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+ ![Vue](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+ ![Vue](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
-To get started with the project, follow these steps:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-1.  Clone the repository to your local machine
 
-```
-git clone https://github.com/Pranshu321/Git-Find
-```
 
-1.  Install the dependencies
+<!-- GETTING STARTED -->
+## Getting Started
 
-```
-npm install
-```
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-1.  Start the development server
+### Prerequisites
 
-```
-npm start
-```
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-1.  Open the application in your browser at `http://localhost:3000`
+### Installation
 
-Contributing
-------------
+_Below is an example of how you can install and setting up your app local version._
 
-If you would like to contribute to this project, please follow these steps:
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Enter vite dev command to run project``
+   ```sh
+   npm run dev
+   ```
+4. Hurray!!! you can see project live on `http://localhost:4173` or `http://localhost:3000` 
 
-1.  Fork the repository
-2.  Create a new branch for your changes
-3.  Make the changes and commit them
-4.  Push the changes to your forked repository
-5.  Create a pull request back to the original repository
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the Previous Examples and commits_
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Add Changelog
+- [x] Add back to top links
+- [ ] Add Additional Templates w/ Examples
+- [ ] Add "components" document to easily copy & paste sections of the readme
+
+See the [open issues](https://github.com/pranshu321/Git-Find/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [Pranshu Jain](https://pranshuportfolio.netlify.app) - pranshujain0111@gmail.com
+
+Project Link: [https://github.com/pranshu321/Git-Find](https://github.com/pranshu321/Git-Find)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Tailwind CSS]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
