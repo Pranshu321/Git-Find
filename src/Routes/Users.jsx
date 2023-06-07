@@ -31,6 +31,7 @@ const Users = () => {
         <input
           placeholder="Let's Explore username"
           ref={user}
+          onKeyUp={(e) => e.key === "Enter" && FindUser()}
           type="text"
           className="h-full md:w-1/3 outline-none text-gray-800 px-2 
           font-semibold text-lg w-2/3 rounded-l-lg "

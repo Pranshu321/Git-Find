@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useLocation} from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Events from "../components/Events";
 import Loading from "../components/Loading";
 import Repo from "../components/Repo";
@@ -41,25 +41,37 @@ const UserInfo = () => {
             className="flex justify-center md:flex-row
              md:px-0 px-4 flex-col gap-10"
           >
-            <img
-              src={uinfo.avatar_url}
-              className="w-[350px] rounded-full border-4 border-teal-400 md:mx-0 mx-auto"
-            />
+            <div className="flex flex-col">
+              <img
+                src={uinfo.avatar_url}
+                className="w-[350px] rounded-full border-4 border-teal-400 md:mx-0 mx-auto"
+              />
+              <div className="w-full mt-4 flex justify-center items-center">
+                 <div className="w-72 font-semibold text-teal-400">{uinfo?.bio}</div>
+              </div>
+            </div>
             <div className="text-lg leading-10 px-3">
               <h1 className="text-3xl pb-4">{uinfo.name}</h1>
               <h1>
-                <span className="text-teal-400">Login_name</span> : {uinfo.login}
+                <span className="text-teal-400">Login Name</span> :{" "}
+                {uinfo.login}
               </h1>
+              { uinfo?.company &&
+              <h3>
+                <span className="text-teal-400">Current Company</span> :{" "}
+                {uinfo.company}
+              </h3>
+              }
               <h1>
-                <span className="text-teal-400">followers : </span>
+                <span className="text-teal-400">Followers : </span>
                 {uinfo.followers}
               </h1>
               <h1>
-                <span className="text-teal-400">following : </span>
+                <span className="text-teal-400">Following : </span>
                 {uinfo.following}
               </h1>
               <h1>
-                <span className="text-teal-400">public_repositories : </span>
+                <span className="text-teal-400">Public Repositories : </span>
                 {uinfo.public_repos}
               </h1>
               <h1>
@@ -81,7 +93,6 @@ const UserInfo = () => {
               >
                 Back
               </a>
-
             </div>
           </div>
         ))}
